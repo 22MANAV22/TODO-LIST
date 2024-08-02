@@ -1,0 +1,127 @@
+/* styles.css */
+body {
+  font-family: 'Arial', sans-serif;
+  background: #9cbee0;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  background: #230b41;
+  padding: 40px;
+  border-radius: 15px;
+  box-shadow: 0 0 20px rgba(245, 239, 239, 0.1);
+  width: 100%;
+  max-width: 600px;
+  text-align: center;
+  transition: all 0.3s ease-in-out;
+}
+
+.container:hover {
+  box-shadow: 0 0 25px rgba(0, 0, 0, 0.2);
+}
+
+.header {
+  font-size: 40px;
+  margin-bottom: 30px;
+  color: #9b92cc;
+  font-weight: bolder;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+}
+
+input[type='text'] {
+  width: calc(100% - 22px);
+  padding: 15px;
+  margin-bottom: 20px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  font-size: 18px;
+  box-sizing: border-box;
+  transition: all 0.3s ease;
+}
+
+input[type='text']:focus {
+  border-color: #007BFF;
+  box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+  outline: none;
+}
+
+button {
+  background: #007BFF;
+  color: white;
+  border: none;
+  padding: 15px 30px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background 0.3s ease;
+  margin: 10px 5px;
+}
+
+button:hover {
+  background: #0056b3;
+}
+
+.list-heading {
+  margin-bottom: 15px;
+  color: #666;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.listData {
+  background: #e9f7ff;
+  padding: 15px;
+  margin: 10px 0;
+  border-radius: 5px;
+  border: 1px solid #ddd;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  transition: all 0.3s ease;
+}
+
+.listData:hover {
+  background: #d4e9ff;
+  border-color: #c8e1ff;
+}
+
+.btn-position {
+  display: inline-block;
+  margin-left: 10px;
+}
+
+.listData button {
+  background: #FF5722;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  color: white;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.listData button:hover {
+  background: #e64a19;
+}
+
+.remove-all {
+  background: #FF9800;
+  color: white;
+  border: none;
+  padding: 15px 30px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background 0.3s ease;
+  margin: 10px 5px;
+}
+
+.remove-all:hover {
+  background: #fb8c00;
+}
